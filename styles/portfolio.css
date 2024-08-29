@@ -68,19 +68,22 @@ main{
     margin: 0 auto;
 
 }
+section{
+    margin-top: 130px;
+}
+
 /* about me section */
 .about{
- margin-top: 130px;
 background: #FFF8F3;
 border-radius: 10px;
 padding: 130px 156px;
 text-align: center;
 }
 .section-title{
-margin-bottom: 30px;
+margin-bottom: 50px;
 font-weight: 700;
 font-size: 35px;
-
+text-align: center;
 }
 .section-discription{
 
@@ -107,6 +110,29 @@ font-size: 20px;
 color: #474747;
 text-align: center;
 }
+/* what-i-do styles */
 
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
 
 
