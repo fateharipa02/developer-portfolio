@@ -175,7 +175,12 @@ margin-bottom: 20px;
 .contact.section-title{
     text-align: left;
 }
-
+.sec-t{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+   
+}
 
 .contact a{
     text-decoration: none;
@@ -187,13 +192,8 @@ padding: 18px 30px;
 width: 100%;
 }
 
-.contact input[type="text"], input[type="email"]  {
+.contact input {
     height: 64px;
 }
-.sec-t{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
-   
-}
+
 
